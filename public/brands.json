@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "img":"https://i.ibb.co/mtVXNcV/brand.jpg",
+        "name":"Sony"
+    },
+    {
+        "id":2,
+        "img":"https://i.ibb.co/5hy7wGH/brand1.jpg",
+        "name":"Apple"
+    },
+    {
+        "id":3,
+        "img":"https://i.ibb.co/0C2dNH9/brand2.jpg",
+        "name":"Intel"
+    },
+    {
+        "id":4,
+        "img":"https://i.ibb.co/5GZPDx9/band3.jpg",
+        "name":"HP"
+    },
+    {
+        "id":5,
+        "img":"https://i.ibb.co/q95BgJb/brand4.jpg",
+        "name":"Sumsung"
+    },
+    {
+        "id":6,
+        "img":"https://i.ibb.co/VmSKrj6/brand5.jpg",
+        "name":"Google"
+    }
+]
