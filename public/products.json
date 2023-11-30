@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "brand_name": "TechMaster",
+      "type": "Smartphone",
+      "img": "smartphone_x.jpg",
+      "price": 799.99,
+      "rating": 4.5,
+      "description": "The latest flagship smartphone with advanced features and a stunning display."
+    },
+    {
+      "id": 2,
+      "name": "UltraBook Pro",
+      "brand_name": "ElectroTech",
+      "type": "Laptop",
+      "img": "ultrabook_pro.jpg",
+      "price": 1299.99,
+      "rating": 4.8,
+      "description": "A powerful ultrabook designed for productivity and high-performance tasks."
+    },
+    {
+      "id": 3,
+      "name": "Smart TV Deluxe",
+      "brand_name": "Visionary",
+      "type": "Smart TV",
+      "img": "smart_tv_deluxe.jpg",
+      "price": 1499.99,
+      "rating": 4.7,
+      "description": "Immerse yourself in stunning visuals with this feature-packed smart TV."
+    },
+    {
+      "id": 4,
+      "name": "Gaming Console X",
+      "brand_name": "GameMaster",
+      "type": "Gaming Console",
+      "img": "gaming_console_x.jpg",
+      "price": 499.99,
+      "rating": 4.9,
+      "description": "Experience next-gen gaming with the powerful Gaming Console X and its exclusive titles."
+    },
+    {
+      "id": 5,
+      "name": "Wireless Earbuds Pro",
+      "brand_name": "AudioTech",
+      "type": "Earbuds",
+      "img": "earbuds_pro.jpg",
+      "price": 149.99,
+      "rating": 4.6,
+      "description": "Immerse yourself in crystal-clear sound with these premium wireless earbuds."
+    },
+    {
+      "id": 6,
+      "name": "4K Action Camera",
+      "brand_name": "AdventureTech",
+      "type": "Action Camera",
+      "img": "4k_action_camera.jpg",
+      "price": 199.99,
+      "rating": 4.4,
+      "description": "Capture your adventures in stunning 4K quality with this rugged action camera."
+    },
+    {
+      "id": 7,
+      "name": "Home Automation Hub",
+      "brand_name": "SmartHome",
+      "type": "Smart Home",
+      "img": "home_automation_hub.jpg",
+      "price": 299.99,
+      "rating": 4.7,
+      "description": "Transform your home into a smart, connected space with this powerful automation hub."
+    },
+    {
+      "id": 8,
+      "name": "Wireless Charging Pad",
+      "brand_name": "PowerTech",
+      "type": "Charging Pad",
+      "img": "wireless_charging_pad.jpg",
+      "price": 49.99,
+      "rating": 4.5,
+      "description": "Charge your devices effortlessly with this sleek and efficient wireless charging pad."
+    },
+    {
+      "id": 9,
+      "name": "VR Headset Elite",
+      "brand_name": "VirtualXperience",
+      "type": "Virtual Reality",
+      "img": "vr_headset_elite.jpg",
+      "price": 399.99,
+      "rating": 4.8,
+      "description": "Immerse yourself in virtual worlds with the cutting-edge VR Headset Elite."
+    },
+    {
+      "id": 10,
+      "name": "Digital Drawing Tablet",
+      "brand_name": "ArtTech",
+      "type": "Drawing Tablet",
+      "img": "drawing_tablet.jpg",
+      "price": 179.99,
+      "rating": 4.6,
+      "description": "Unleash your creativity with precision using this advanced digital drawing tablet."
+    },
+    {
+      "id": 11,
+      "name": "Smart Thermostat",
+      "brand_name": "ClimateControl",
+      "type": "Smart Home",
+      "img": "smart_thermostat.jpg",
+      "price": 129.99,
+      "rating": 4.7,
+      "description": "Efficiently control and monitor your home's temperature with this smart thermostat."
+    },
+    {
+      "id": 12,
+      "name": "Compact Drone Explorer",
+      "brand_name": "SkyTech",
+      "type": "Drone",
+      "img": "compact_drone_explorer.jpg",
+      "price": 299.99,
+      "rating": 4.5,
+      "description": "Capture breathtaking aerial views with the portable and feature-rich Compact Drone Explorer."
+    }
+  ]
