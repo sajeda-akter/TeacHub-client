@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Brands = () => {
     const [brands,setBrands]=useState([])
@@ -15,13 +16,15 @@ const Brands = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5 justify-items-center content-center  lg:w-10/12 mx-auto">
                 {
                     brands.map(brand=>
-                        <div key={brand.id} className="card w-96 h-80 glass bg-[#FFEBD8]">
+                        <Link key={brand.id} to="/brandProduct">
+                        <div  className="card w-96 h-80 glass bg-[#FFEBD8]">
                         <figure><img src={brand.img} className="w-full h-52" alt={brand.name}/></figure>
                         <div className="card-body">
                           <h2 className="card-title text-3xl text-[#E94560] text-center">{brand.name}</h2>
                           
                         </div>
                       </div>
+                        </Link>
                         )
                 }
             </div>
