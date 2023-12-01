@@ -6,10 +6,14 @@ import Signup from "../components/Register/Signup/Signup";
 import MyCart from "../components/MyCart/MyCart";
 import AddToCart from "../components/AddToCart/AddToCart";
 import BrandProduct from "../components/Home/HomeDetails/Brands/BrandProduct/BrandProduct";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
+import PrivateRoute from "./PrivateRoute";
+import ProductDetails from "../components/Home/HomeDetails/Brands/BrandProduct/AllProduct/ProdductDetails/ProductDEtails";
 
 export const router=createBrowserRouter([
     {
         path:'/',
+        errorElement:<ErrorPage/>,
         element:<Main/>,
         children:[
             {
@@ -26,18 +30,23 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/mycart',
-                element:<MyCart/>
+                element:<PrivateRoute><MyCart/></PrivateRoute>
             },
             {
                 path:'/addtocart',
-                element:<AddToCart/>
+                element:<PrivateRoute><AddToCart/></PrivateRoute>
             },
             {
                 path:'/brandProduct',
-                loader:()=>fetch('products.json'),
+                loader:()=>fetch('http://localhost:5000/products'),
                 element:<BrandProduct/>
             
                 
+            },
+            {
+                path:'/brandProduct/:id',
+                loader:()=>fetch(`http://localhost:5000/products`),
+                element:<PrivateRoute><ProductDetails/></PrivateRoute>
             }
 
         ]

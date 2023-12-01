@@ -1,26 +1,26 @@
 [
     {
-      "id": 1,
+    
       "name": "Smartphone X",
       "brand_name": "Sony",
       "type": "Smartphone",
-      "img": "smartphone_x.jpg",
+      "img": "https://i.ibb.co/Jn9VNJv/smart-1.jpg",
       "price": 799.99,
       "rating": 4.5,
       "description": "The latest flagship smartphone with advanced features and a stunning display."
     },
     {
-      "id": 2,
+  
       "name": "UltraBook Pro",
       "brand_name": "Sony",
       "type": "Laptop",
-      "img": "ultrabook_pro.jpg",
+      "img": "https://i.ibb.co/gPW3KhG/pro.jpg",
       "price": 1299.99,
       "rating": 4.8,
       "description": "A powerful ultrabook designed for productivity and high-performance tasks."
     },
     {
-      "id": 3,
+      
       "name": "Smart TV Deluxe",
       "brand_name": "Sony",
       "type": "Smart TV",
@@ -30,7 +30,7 @@
       "description": "Immerse yourself in stunning visuals with this feature-packed smart TV."
     },
     {
-      "id": 4,
+      
       "name": "Gaming Console X",
       "brand_name": "HP",
       "type": "Gaming Console",
@@ -40,7 +40,6 @@
       "description": "Experience next-gen gaming with the powerful Gaming Console X and its exclusive titles."
     },
     {
-      "id": 5,
       "name": "Wireless Earbuds Pro",
       "brand_name": "Sumsung",
       "type": "Earbuds",
@@ -60,7 +59,7 @@
       "description": "Capture your adventures in stunning 4K quality with this rugged action camera."
     },
     {
-      "id": 7,
+      
       "name": "Home Automation Hub",
       "brand_name": "HP",
       "type": "Smart Home",
@@ -70,7 +69,7 @@
       "description": "Transform your home into a smart, connected space with this powerful automation hub."
     },
     {
-      "id": 8,
+      
       "name": "Wireless Charging Pad",
       "brand_name": "Samsung",
       "type": "Charging Pad",
@@ -80,7 +79,7 @@
       "description": "Charge your devices effortlessly with this sleek and efficient wireless charging pad."
     },
     {
-      "id": 9,
+      
       "name": "VR Headset Elite",
       "brand_name": "Apple",
       "type": "Virtual Reality",
@@ -90,7 +89,7 @@
       "description": "Immerse yourself in virtual worlds with the cutting-edge VR Headset Elite."
     },
     {
-      "id": 10,
+    
       "name": "Digital Drawing Tablet",
       "brand_name": "Intel",
       "type": "Drawing Tablet",
@@ -100,7 +99,7 @@
       "description": "Unleash your creativity with precision using this advanced digital drawing tablet."
     },
     {
-      "id": 11,
+    
       "name": "Smart Thermostat",
       "brand_name": "Sony",
       "type": "Smart Home",
@@ -110,7 +109,7 @@
       "description": "Efficiently control and monitor your home's temperature with this smart thermostat."
     },
     {
-      "id": 12,
+    
       "name": "Compact Drone Explorer",
       "brand_name": "Intel",
       "type": "Drone",
@@ -120,7 +119,7 @@
       "description": "Capture breathtaking aerial views with the portable and feature-rich Compact Drone Explorer."
     },
     {
-      "id": 13,
+      
       "name": "Smart Home Security System",
       "brand_name": "HP",
       "type": "Security System",
@@ -130,7 +129,7 @@
       "description": "Protect your home with the latest smart security system, featuring advanced monitoring and alerts."
     },
     {
-      "id": 14,
+      
       "name": "Ultra HD Monitor",
       "brand_name": "Apple",
       "type": "Monitor",
@@ -140,7 +139,7 @@
       "description": "Experience crisp visuals and vibrant colors with this high-performance Ultra HD monitor for professionals."
     },
     {
-      "id": 15,
+      
       "name": "Smart Refrigerator",
       "brand_name": "Sony",
       "type": "Appliance",
@@ -150,7 +149,7 @@
       "description": "Revolutionize your kitchen with this intelligent smart refrigerator, featuring touchscreen controls and automated functions."
     },
     {
-      "id": 16,
+      
       "name": "Fitness Tracker Pro",
       "brand_name": "Apple",
       "type": "Wearable",
@@ -170,7 +169,7 @@
       "description": "Transform your living room into a home theater with the high-definition visuals of this premium HD projector."
     },
     {
-      "id": 18,
+      
       "name": "Compact Bluetooth Speaker",
       "brand_name": "HP",
       "type": "Speaker",
@@ -180,7 +179,7 @@
       "description": "Enjoy your favorite tunes on the go with the compact and powerful Bluetooth speaker."
     },
     {
-      "id": 19,
+    
       "name": "Smart LED Bulb Set",
       "brand_name": "Intel",
       "type": "Smart Home",
@@ -190,7 +189,7 @@
       "description": "Illuminate your space with customizable lighting using the Smart LED Bulb Set and its smart home integration."
     },
     {
-      "id": 20,
+   
       "name": "Portable Power Bank",
       "brand_name": "PowerUp",
       "type": "Power Bank",
