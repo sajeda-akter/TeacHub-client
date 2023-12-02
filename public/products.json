@@ -3,6 +3,7 @@
     
       "name": "Smartphone X",
       "brand_name": "Sony",
+      "brand_id":"6569717ae5b9f1757c923b44",
       "type": "Smartphone",
       "img": "https://i.ibb.co/Jn9VNJv/smart-1.jpg",
       "price": 799.99,
@@ -14,6 +15,7 @@
       "name": "UltraBook Pro",
       "brand_name": "Sony",
       "type": "Laptop",
+      "brand_id":"6569717ae5b9f1757c923b44",
       "img": "https://i.ibb.co/gPW3KhG/pro.jpg",
       "price": 1299.99,
       "rating": 4.8,
@@ -23,8 +25,9 @@
       
       "name": "Smart TV Deluxe",
       "brand_name": "Sony",
+      "brand_id":"6569717ae5b9f1757c923b44",
       "type": "Smart TV",
-      "img": "smart_tv_deluxe.jpg",
+      "img": "https://i.ibb.co/3yn6Dst/tv.jpg",
       "price": 1499.99,
       "rating": 4.7,
       "description": "Immerse yourself in stunning visuals with this feature-packed smart TV."
@@ -34,7 +37,8 @@
       "name": "Gaming Console X",
       "brand_name": "HP",
       "type": "Gaming Console",
-      "img": "gaming_console_x.jpg",
+      "brand_id":"6569717ae5b9f1757c923b47",
+      "img": "https://i.ibb.co/ZHyV7hQ/gams.jpg",
       "price": 499.99,
       "rating": 4.9,
       "description": "Experience next-gen gaming with the powerful Gaming Console X and its exclusive titles."
@@ -43,17 +47,19 @@
       "name": "Wireless Earbuds Pro",
       "brand_name": "Sumsung",
       "type": "Earbuds",
-      "img": "earbuds_pro.jpg",
+      "brand_id":"6569717ae5b9f1757c923b48",
+      "img": "https://i.ibb.co/yypgGKn/prod.jpg",
       "price": 149.99,
       "rating": 4.6,
       "description": "Immerse yourself in crystal-clear sound with these premium wireless earbuds."
     },
     {
-      "id": 6,
+    
       "name": "4K Action Camera",
       "brand_name": "Apple",
       "type": "Action Camera",
-      "img": "4k_action_camera.jpg",
+      "brand_id":"6569717ae5b9f1757c923b45",
+      "img": "https://i.ibb.co/X765WHK/camera.jpg",
       "price": 199.99,
       "rating": 4.4,
       "description": "Capture your adventures in stunning 4K quality with this rugged action camera."
@@ -63,7 +69,8 @@
       "name": "Home Automation Hub",
       "brand_name": "HP",
       "type": "Smart Home",
-      "img": "home_automation_hub.jpg",
+      "brand_id":"6569717ae5b9f1757c923b47",
+      "img": "https://i.ibb.co/MRpTn4S/hub.jpg",
       "price": 299.99,
       "rating": 4.7,
       "description": "Transform your home into a smart, connected space with this powerful automation hub."
@@ -73,7 +80,8 @@
       "name": "Wireless Charging Pad",
       "brand_name": "Samsung",
       "type": "Charging Pad",
-      "img": "wireless_charging_pad.jpg",
+      "brand_id":"6569717ae5b9f1757c923b48",
+      "img": "https://i.ibb.co/MsL6ch2/charge.jpg",
       "price": 49.99,
       "rating": 4.5,
       "description": "Charge your devices effortlessly with this sleek and efficient wireless charging pad."
@@ -83,7 +91,8 @@
       "name": "VR Headset Elite",
       "brand_name": "Apple",
       "type": "Virtual Reality",
-      "img": "vr_headset_elite.jpg",
+      "brand_id":"6569717ae5b9f1757c923b45",
+      "img": "https://i.ibb.co/M5KFCgg/elite.jpg",
       "price": 399.99,
       "rating": 4.8,
       "description": "Immerse yourself in virtual worlds with the cutting-edge VR Headset Elite."
@@ -93,7 +102,8 @@
       "name": "Digital Drawing Tablet",
       "brand_name": "Intel",
       "type": "Drawing Tablet",
-      "img": "drawing_tablet.jpg",
+      "brand_id":"6569717ae5b9f1757c923b46",
+      "img": "https://i.ibb.co/pXJ0HpF/paint.jpg",
       "price": 179.99,
       "rating": 4.6,
       "description": "Unleash your creativity with precision using this advanced digital drawing tablet."
@@ -103,7 +113,8 @@
       "name": "Smart Thermostat",
       "brand_name": "Sony",
       "type": "Smart Home",
-      "img": "smart_thermostat.jpg",
+      "brand_id":"6569717ae5b9f1757c923b44",
+      "img": "https://i.ibb.co/rMpdt2B/tham.jpg",
       "price": 129.99,
       "rating": 4.7,
       "description": "Efficiently control and monitor your home's temperature with this smart thermostat."
@@ -112,8 +123,9 @@
     
       "name": "Compact Drone Explorer",
       "brand_name": "Intel",
+      "brand_id":"6569717ae5b9f1757c923b46",
       "type": "Drone",
-      "img": "compact_drone_explorer.jpg",
+      "img": "https://i.ibb.co/F7qPbvL/drone.jpg",
       "price": 299.99,
       "rating": 4.5,
       "description": "Capture breathtaking aerial views with the portable and feature-rich Compact Drone Explorer."
@@ -123,9 +135,10 @@
       "name": "Smart Home Security System",
       "brand_name": "HP",
       "type": "Security System",
-      "img": "home_security_system.jpg",
+      "img": "https://i.ibb.co/cQXXk05/sm.jpg",
       "price": 499.99,
       "rating": 4.8,
+      "brand_id":"6569717ae5b9f1757c923b47",
       "description": "Protect your home with the latest smart security system, featuring advanced monitoring and alerts."
     },
     {
@@ -133,7 +146,8 @@
       "name": "Ultra HD Monitor",
       "brand_name": "Apple",
       "type": "Monitor",
-      "img": "ultra_hd_monitor.jpg",
+      "brand_id":"6569717ae5b9f1757c923b45",
+      "img": "https://i.ibb.co/6WRsqMc/t.jpg",
       "price": 699.99,
       "rating": 4.7,
       "description": "Experience crisp visuals and vibrant colors with this high-performance Ultra HD monitor for professionals."
@@ -141,9 +155,10 @@
     {
       
       "name": "Smart Refrigerator",
-      "brand_name": "Sony",
+      "brand_name": "Samsung",
       "type": "Appliance",
-      "img": "smart_refrigerator.jpg",
+      "brand_id":"6569717ae5b9f1757c923b48",
+      "img": "https://i.ibb.co/C2Sfh1m/refre.jpg",
       "price": 1799.99,
       "rating": 4.6,
       "description": "Revolutionize your kitchen with this intelligent smart refrigerator, featuring touchscreen controls and automated functions."
@@ -153,9 +168,10 @@
       "name": "Fitness Tracker Pro",
       "brand_name": "Apple",
       "type": "Wearable",
-      "img": "fitness_tracker_pro.jpg",
+      "img": "https://i.ibb.co/S5WYRcP/watch.jpg",
       "price": 129.99,
       "rating": 4.5,
+      "brand_id":"6569717ae5b9f1757c923b45",
       "description": "Achieve your fitness goals with precision using the advanced features of the Fitness Tracker Pro."
     },
     {
@@ -163,9 +179,10 @@
       "name": "HD Projector",
       "brand_name": "Intel",
       "type": "Projector",
-      "img": "hd_projector.jpg",
+      "img": "https://i.ibb.co/pdmvxw1/project.jpg",
       "price": 899.99,
       "rating": 4.9,
+      "brand_id":"6569717ae5b9f1757c923b46",
       "description": "Transform your living room into a home theater with the high-definition visuals of this premium HD projector."
     },
     {
@@ -173,7 +190,8 @@
       "name": "Compact Bluetooth Speaker",
       "brand_name": "HP",
       "type": "Speaker",
-      "img": "compact_speaker.jpg",
+      "brand_id":"6569717ae5b9f1757c923b47",
+      "img": "https://i.ibb.co/qNFcmyd/com.jpg",
       "price": 79.99,
       "rating": 4.4,
       "description": "Enjoy your favorite tunes on the go with the compact and powerful Bluetooth speaker."
@@ -183,19 +201,22 @@
       "name": "Smart LED Bulb Set",
       "brand_name": "Intel",
       "type": "Smart Home",
-      "img": "smart_led_bulb_set.jpg",
+      "img": "https://i.ibb.co/hg3QxTJ/bulb.jpg",
       "price": 59.99,
+      "brand_id":"6569717ae5b9f1757c923b46",
       "rating": 4.7,
       "description": "Illuminate your space with customizable lighting using the Smart LED Bulb Set and its smart home integration."
     },
     {
    
       "name": "Portable Power Bank",
-      "brand_name": "PowerUp",
+      "brand_name": "Samsung",
+      "brand_id":"6569717ae5b9f1757c923b48",
       "type": "Power Bank",
-      "img": "portable_power_bank.jpg",
+      "img": "https://i.ibb.co/r2N6hrT/power.jpg",
       "price": 29.99,
       "rating": 4.6,
       "description": "Stay charged on the go with the Portable Power Bank, featuring a sleek design and fast-charging technology."
     }
+
   ]

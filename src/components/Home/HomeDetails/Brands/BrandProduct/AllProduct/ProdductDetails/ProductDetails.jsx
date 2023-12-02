@@ -1,14 +1,18 @@
 // import { Rating } from "@smastrom/react-rating";
-import { Rating, ThinStar } from "@smastrom/react-rating";
+import { Rating } from "@smastrom/react-rating";
 import { useLoaderData, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
 import "@smastrom/react-rating/style.css";
+import { useContext } from "react";
+import { AuthContext } from "../../../../../../../AuthProvider/AuthProvider";
+
 
 const ProductDetails = () => {
+  const {user}=useContext(AuthContext)
   const products = useLoaderData();
   const { id } = useParams();
   const product = products.find((data) => data._id === id);
-
+console.log(user.displayName)
   const newProduct = {
     name: product.name,
     brand_name: product.brand_name,
@@ -17,9 +21,11 @@ const ProductDetails = () => {
     price: product.price,
     rating: product.rating,
     description: product.description,
+    user:user.displayName ,
+    email:user.email
   };
   const handleAddProduct = () => {
-    fetch("http://localhost:5000/addProduct", {
+    fetch("http://localhost:5000/addproduct", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -40,12 +46,7 @@ const ProductDetails = () => {
       });
   };
 
-  const myStyles = {
-    itemShapes: ThinStar,
-    // activeFillColor: '##fff',
-    activeFillColor: "LightSeaGreen",
-    inactiveFillColor: "#fbf1a9",
-  };
+
 
   return (
     <div className="lg:w-8/12 mx-auto bg-[#F7EFE5] p-12 my-12 rounded-md">

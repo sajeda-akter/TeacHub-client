@@ -21,12 +21,14 @@ const Navbar = () => {
   <li className="text-[17px] me-2"><NavLink to="/addtocart">Add Product</NavLink></li>
   <li className="text-[17px] me-2"><NavLink to="/mycart">My Cart</NavLink></li>
 {
-  user? <button onClick={handleLogout}>Logout</button>:
-  <li><NavLink to="/login">Login</NavLink></li>
+  user? <button className="text-[17px] me-2" onClick={handleLogout}>Logout</button>:
+  <li className="text-[17px] me-2"><NavLink to="/login">Login</NavLink></li>
 }
+<li className="text-[17px] me-2"> <button>Dark</button></li>
+
   </>
     return (
-        <nav className="navbar bg-[#FFEBD8] sticky top-0 z-50">
+        <div className="navbar bg-[#FFEBD8] sticky top-0 z-50">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,6 +50,7 @@ const Navbar = () => {
            
           </ul>
         </div>
+       
         <div className="navbar-end">
           {
             user && <>
@@ -56,7 +59,7 @@ const Navbar = () => {
             </>
           }
         </div>
-      </nav>
+      </div>
     );
 };
 

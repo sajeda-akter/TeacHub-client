@@ -1,14 +1,24 @@
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Link} from "react-router-dom";
+import { AuthContext } from "../../../../../../AuthProvider/AuthProvider";
 
-const AllProduct = ({ product }) => {
+
+const AllProduct = ({product}) => {
+  const {user}=useContext(AuthContext)
+  
   const {_id, img, name, brand_name, type, price, rating } = product;
-  //  const handleDetails=_id=>{
-  //   console.log(_id)
-  //  }
+
+ 
+
+ 
   return (
-    <div className="card lg:card-side bg-base-100 shadow-xl ">
+   
+   <div>
+   
+   
+     <div className="card lg:card-side bg-red-100 shadow-xl ">
       <figure>
-        <img src={img} alt={name} className="lg:w-52 w-96 h-5/12 lg:h-full object-fit" />
+        <img src={img} alt={name} className="lg:w-56 w-full h-72 lg:h-full" />
       </figure>
       <div className="card-body">
         <h2 className="card-title ">Name: {name}</h2>
@@ -23,10 +33,13 @@ const AllProduct = ({ product }) => {
             {" "}
             <button className="btn btn-primary">Details</button>
           </Link>
-          <button className="btn btn-primary">Update</button>
+         <Link to={`/update/${_id}`}>
+         <button className="btn btn-primary">Update</button>
+         </Link>
         </div>
       </div>
     </div>
+   </div>
   );
 };
 

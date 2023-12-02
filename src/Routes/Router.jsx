@@ -5,10 +5,14 @@ import Login from "../components/Register/Login/Login";
 import Signup from "../components/Register/Signup/Signup";
 import MyCart from "../components/MyCart/MyCart";
 import AddToCart from "../components/AddToCart/AddToCart";
-import BrandProduct from "../components/Home/HomeDetails/Brands/BrandProduct/BrandProduct";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import PrivateRoute from "./PrivateRoute";
-import ProductDetails from "../components/Home/HomeDetails/Brands/BrandProduct/AllProduct/ProdductDetails/ProductDEtails";
+import BrandProduct from "../components/Home/HomeDetails/Brands/BrandProduct/BrandProduct";
+import ProductDetails from "../components/Home/HomeDetails/Brands/BrandProduct/AllProduct/ProdductDetails/ProductDetails";
+import UpdateForm from "../components/UpdateForm/UpdateForm";
+
+
+
 
 export const router=createBrowserRouter([
     {
@@ -30,6 +34,7 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/mycart',
+                loader:()=>fetch("http://localhost:5000/addproduct"),
                 element:<PrivateRoute><MyCart/></PrivateRoute>
             },
             {
@@ -37,17 +42,26 @@ export const router=createBrowserRouter([
                 element:<PrivateRoute><AddToCart/></PrivateRoute>
             },
             {
-                path:'/brandProduct',
-                loader:()=>fetch('http://localhost:5000/products'),
+                path:'/allproduct/:id',
+                loader:()=>fetch("http://localhost:5000/products"),
                 element:<BrandProduct/>
-            
-                
             },
             {
                 path:'/brandProduct/:id',
                 loader:()=>fetch(`http://localhost:5000/products`),
                 element:<PrivateRoute><ProductDetails/></PrivateRoute>
+            },
+            {
+                path:'/update/:id',
+                element:<UpdateForm/>
+            },
+            {
+                path:'/mycart',
+                loader:()=>fetch("http://localhost:5000/addproduct"),
+                element:<MyCart/>
             }
+            
+         
 
         ]
     }

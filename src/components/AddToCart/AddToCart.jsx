@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import Swal from "sweetalert2";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const AddToCart = () => {
+  const {user}=useContext(AuthContext)
+  console.log(user)
   const handleAddProduct=(e)=>{
     e.preventDefault()
     const form=e.target
@@ -9,12 +13,12 @@ const AddToCart = () => {
     const rating=form.rating.value
     const price=form.price.value
     const type=form.type.value
-    const photoURL=form.photoURL.value
+    const img=form.photoURL.value
     const description=form.description.value
     const newProduct={
-      name,brand,photoURL,type,price,rating,description
+      name,brand,img,type,price,rating,description,email:user.email,user:user.displayName
     }
-    fetch('http://localhost:5000/addProduct',{
+    fetch('http://localhost:5000/addproduct',{
       method:"POST",
       headers:{
         'content-type':"application/json"
@@ -82,7 +86,7 @@ Swal.fire({
           className="input input-bordered w-full max-w-xs"
         />
         <textarea name="description" className="textarea textarea-bordered h-32 col-span-2" placeholder="Write product description"></textarea>
-        <button className="btn btn-active btn-primary w-52 mt-4 ml-24 lg:ml-56">ADD</button>
+        <button className="btn btn-active btn-primary w-52 mt-4 ml-24 lg:ml-56">Add To Cart</button>
 
       
       </form>
