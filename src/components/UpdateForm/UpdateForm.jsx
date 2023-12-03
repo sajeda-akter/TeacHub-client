@@ -35,6 +35,7 @@ const UpdateForm = () => {
     })
     .then(res=>res.json())
     .then(data=>{
+      console.log(data)
  
 Swal.fire({
   position: "top-center",
@@ -43,7 +44,6 @@ Swal.fire({
   showConfirmButton: false,
   timer: 1000
 });
-      console.log(data)
     })
   }
     return (

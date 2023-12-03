@@ -8,6 +8,7 @@ const Login = () => {
   const { userSignin, googleSignin, githubSignin } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
+  console.log()
 
   // signin by google
   const handleGoogle = () => {

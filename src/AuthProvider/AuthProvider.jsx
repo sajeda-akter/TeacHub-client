@@ -38,10 +38,10 @@ const AuthProvider = ({ children }) => {
     return signInWithPopup(auth, githubProvider);
   };
 
-  const userUpdate = (name, photoURL) => {
+  const userUpdate = (name) => {
     return updateProfile(auth.currentUser, {
       displayName: name,
-      photoURL: photoURL,
+      // photoURL: photoURL,
     });
   };
   useEffect(() => {

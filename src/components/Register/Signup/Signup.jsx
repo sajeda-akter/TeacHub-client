@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSignup=(e)=>{
     e.preventDefault()
     const name=e.target.name.value;
-    const photoURL=e.target.PhotoURL.value;
+    // const photoURL=e.target.PhotoURL.value;
     
     const email=e.target.email.value;
     const password=e.target.password.value;
@@ -37,7 +37,7 @@ const Signup = () => {
     .then(result=>{
       console.log(result.user)
 
-      userUpdate(name,photoURL)
+      userUpdate(name)
       .then(()=>{
           navigate(location?.state ? location.state:'/')
           Swal.fire("Successfully user created!");
@@ -90,7 +90,7 @@ const Signup = () => {
            
             />
           </div>
-          <div className="form-control">
+          {/* <div className="form-control">
             <input
               type="text"
               placeholder="PhotoURL"
@@ -98,7 +98,7 @@ const Signup = () => {
               className="py-4 outline-none border-b-2 border-indigo-800"
            
             />
-          </div>
+          </div> */}
           <div className="form-control">
             <input
               type="email"
