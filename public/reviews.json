@@ -1,0 +1,88 @@
+[
+    
+    {
+        "name":"Rup Islam",
+        "img":"https://i.ibb.co/R6rjMDc/user6.jpg",
+        "animate":"fade-up",
+        "rating":"5",
+        "review":"Encourage positive reviews that not only highlight your business’s strengths but also address any potential customer concerns. This demonstrates that your business values discerning consumers who provide honest assessments."
+    },
+    {
+        "name":"Anik Sarkar",
+        "img":"https://i.ibb.co/8zZNyPW/user5.jpg",
+        "animate":"fade-down",
+        "rating":"4",
+        "review":"I had a wonderful visit to TechHub for my [issue]. The care I received from cousinwas exceptional. They listened attentively to my concerns and provided personalized treatment that yielded positive results. The entire team at the clinic displayed a high level of professionalism and made me feel comfortable throughout my visit."
+    },
+    {
+        "name":"Rifat Islam",
+        "img":"https://i.ibb.co/TvrV9XR/user4.jpg",
+        "animate":"fade-right",
+        "rating":"4",
+        "review":"Encourage positive reviews that not only highlight your business’s strengths but also address any potential customer concerns. This demonstrates that your business values discerning consumers who provide honest assessments."
+    },
+    {
+        "name":"Raja Rahman",
+        "img":"https://i.ibb.co/m8L9W6F/user3.jpg",
+        "animate":"fade-left",
+        "rating":"5",
+        "review":"I had a wonderful visit to TechHub for my [issue]. The care I received from cousinwas exceptional. They listened attentively to my concerns and provided personalized treatment that yielded positive results. The entire team at the clinic displayed a high level of professionalism and made me feel comfortable throughout my visit."
+    },
+    {
+        "name":"Tritho Chowdhury",
+        "img":"https://i.ibb.co/tcHJQmV/user2.jpg",
+        "animate":"fade-up",
+        "rating":"4",
+        "review":"Encourage positive reviews that not only highlight your business’s strengths but also address any potential customer concerns. This demonstrates that your business values discerning consumers who provide honest assessments."
+    },
+    {
+        "name":"Shahed Islam",
+        "img":"https://i.ibb.co/GkFqvqF/user.jpg",
+        "animate":"fade-down",
+        "rating":"5",
+        "review":"I had a wonderful visit to TechHub for my [issue]. The care I received from cousinwas exceptional. They listened attentively to my concerns and provided personalized treatment that yielded positive results. The entire team at the clinic displayed a high level of professionalism and made me feel comfortable throughout my visit."
+    },
+    
+    {
+        "name":"Rifat Sarkar",
+        "img":"https://i.ibb.co/R6rjMDc/user6.jpg",
+        "animate":"fade-right",
+        "rating":"3",
+        "review":"Encourage positive reviews that not only highlight your business’s strengths but also address any potential customer concerns. This demonstrates that your business values discerning consumers who provide honest assessments."
+    },
+    {
+        "name":"Md Mehedi",
+        "img":"https://i.ibb.co/8zZNyPW/user5.jpg",
+        "animate":"fade-left",
+        "rating":"4",
+        "review":"I had a wonderful visit to TechHub for my [issue]. The care I received from cousinwas exceptional. They listened attentively to my concerns and provided personalized treatment that yielded positive results. The entire team at the clinic displayed a high level of professionalism and made me feel comfortable throughout my visit."
+    },
+    {
+        "name":"Rith Rahman",
+        "img":"https://i.ibb.co/TvrV9XR/user4.jpg",
+        "animate":"fade-up",
+        "rating":"3",
+        "review":"Encourage positive reviews that not only highlight your business’s strengths but also address any potential customer concerns. This demonstrates that your business values discerning consumers who provide honest assessments."
+    },
+    {
+        "name":"Rasel Rahman",
+        "img":"https://i.ibb.co/m8L9W6F/user3.jpg",
+        "animate":"fade-down",
+        "rating":"3",
+        "review":"I had a wonderful visit to TechHub for my [issue]. The care I received from cousinwas exceptional. They listened attentively to my concerns and provided personalized treatment that yielded positive results. The entire team at the clinic displayed a high level of professionalism and made me feel comfortable throughout my visit."
+    },
+    {
+        "name":"Safiqur Rahman ",
+        "img":"https://i.ibb.co/tcHJQmV/user2.jpg",
+        "animate":"fade-right",
+        "rating":"5",
+        "review":"Encourage positive reviews that not only highlight your business’s strengths but also address any potential customer concerns. This demonstrates that your business values discerning consumers who provide honest assessments."
+    },
+    {
+        "name":"Shahed Islam",
+        "img":"https://i.ibb.co/GkFqvqF/user.jpg",
+        "animate":"fade-left",
+        "rating":"4",
+        "review":"I had a wonderful visit to TechHub for my [issue]. The care I received from cousinwas exceptional. They listened attentively to my concerns and provided personalized treatment that yielded positive results. The entire team at the clinic displayed a high level of professionalism and made me feel comfortable throughout my visit."
+    }
+]

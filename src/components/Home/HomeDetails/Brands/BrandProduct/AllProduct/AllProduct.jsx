@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link} from "react-router-dom";
 import { AuthContext } from "../../../../../../AuthProvider/AuthProvider";
+import Swal from "sweetalert2";
 
 
 const AllProduct = ({product}) => {
@@ -8,7 +9,7 @@ const AllProduct = ({product}) => {
   
   const {_id, img, name, brand_name, type, price, rating } = product;
 
- 
+
 
  
   return (

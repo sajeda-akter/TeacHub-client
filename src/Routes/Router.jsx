@@ -10,6 +10,7 @@ import PrivateRoute from "./PrivateRoute";
 import BrandProduct from "../components/Home/HomeDetails/Brands/BrandProduct/BrandProduct";
 import ProductDetails from "../components/Home/HomeDetails/Brands/BrandProduct/AllProduct/ProdductDetails/ProductDetails";
 import UpdateForm from "../components/UpdateForm/UpdateForm";
+import ReviewAll from "../components/ReviewAll/ReviewAll";
 
 
 
@@ -53,12 +54,18 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/update/:id',
+                loader:()=>fetch(`http://localhost:5000/addproduct`),
                 element:<UpdateForm/>
             },
             {
                 path:'/mycart',
                 loader:()=>fetch("http://localhost:5000/addproduct"),
                 element:<MyCart/>
+            },
+            {
+                path:'/allreview',
+                loader:()=>fetch('http://localhost:5000/reviews'),
+                element:<ReviewAll/>
             }
             
          
