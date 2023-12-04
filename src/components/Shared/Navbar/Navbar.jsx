@@ -22,7 +22,7 @@ const Navbar = () => {
   <li className="text-[17px] me-2"><NavLink to="/addtocart">Add Product</NavLink></li>
   <li className="text-[17px] me-2"><NavLink to="/mycart">My Cart</NavLink></li>
 {
-  user? <button className="text-[17px] me-2" onClick={handleLogout}>Logout</button>:
+  user? <li><button className="text-[17px] me-2" onClick={handleLogout}>Logout</button></li>:
   <li className="text-[17px] me-2"><NavLink to="/login">Login</NavLink></li>
 }
 

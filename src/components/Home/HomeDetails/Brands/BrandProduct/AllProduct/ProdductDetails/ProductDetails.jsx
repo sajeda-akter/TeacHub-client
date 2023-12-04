@@ -12,7 +12,7 @@ const ProductDetails = () => {
   const products = useLoaderData();
   const { id } = useParams();
   const product = products.find((data) => data._id === id);
-console.log(user.displayName)
+
   const newProduct = {
     name: product.name,
     brand_name: product.brand_name,
@@ -24,8 +24,9 @@ console.log(user.displayName)
     user:user.displayName ,
     email:user.email
   };
+
   const handleAddProduct = () => {
-    fetch("http://localhost:5000/addproduct", {
+    fetch("https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/addproduct", {
       method: "POST",
       headers: {
         "content-type": "application/json",

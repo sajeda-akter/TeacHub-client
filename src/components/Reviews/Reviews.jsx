@@ -9,8 +9,9 @@ AOS.init();
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
+  console.log(reviews)
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

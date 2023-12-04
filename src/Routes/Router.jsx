@@ -35,7 +35,7 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/mycart',
-                loader:()=>fetch("http://localhost:5000/addproduct"),
+                loader:()=>fetch("https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/addproduct"),
                 element:<PrivateRoute><MyCart/></PrivateRoute>
             },
             {
@@ -44,27 +44,27 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/allproduct/:id',
-                loader:()=>fetch("http://localhost:5000/products"),
+                loader:()=>fetch("https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/products"),
                 element:<BrandProduct/>
             },
             {
                 path:'/brandProduct/:id',
-                loader:()=>fetch(`http://localhost:5000/products`),
+                loader:()=>fetch(`https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/products`),
                 element:<PrivateRoute><ProductDetails/></PrivateRoute>
             },
             {
                 path:'/update/:id',
-                loader:()=>fetch(`http://localhost:5000/addproduct`),
+                loader:()=>fetch(`https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/addproduct`),
                 element:<UpdateForm/>
             },
             {
                 path:'/mycart',
-                loader:()=>fetch("http://localhost:5000/addproduct"),
+                loader:()=>fetch("https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/addproduct"),
                 element:<MyCart/>
             },
             {
                 path:'/allreview',
-                loader:()=>fetch('http://localhost:5000/reviews'),
+                loader:()=>fetch('https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/reviews'),
                 element:<ReviewAll/>
             }
             
