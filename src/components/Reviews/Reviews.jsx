@@ -11,10 +11,11 @@ const Reviews = () => {
   const [reviews, setReviews] = useState([]);
   console.log(reviews)
   useEffect(() => {
-    fetch("https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/reviews")
+    fetch("https://tech-hub-server-rust.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
+  
   return (
     <div className="mt-12 mb-12">
       <p className="text-center text-xl font-medium text-red-500">

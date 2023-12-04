@@ -18,7 +18,7 @@ const AddToCart = () => {
     const newProduct={
       name,brand,img,type,price,rating,description,email:user.email,user:user.displayName
     }
-    fetch('https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/addproduct',{
+    fetch('https://tech-hub-server-rust.vercel.app/addproduct',{
       method:"POST",
       headers:{
         'content-type':"application/json"

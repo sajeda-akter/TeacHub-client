@@ -1,17 +1,17 @@
-import Reviews from "../Reviews/Reviews";
-import Footer from "../Shared/Footer/Footer";
+// import Reviews from "../Reviews/Reviews";
+// import Footer from "../Shared/Footer/Footer";
 import About from "./HomeDetails/About/About";
 import Banner from "./HomeDetails/Banner/Banner";
-import Brands from "./HomeDetails/Brands/Brands";
+// import Brands from "./HomeDetails/Brands/Brands";
 
 const Home = () => {
     return (
         <div>
             <Banner/>
             <About/>
-            <Brands/>
-            <Reviews/>
-            <Footer/>
+            {/* <Brands/> */}
+            {/* <Reviews/> */}
+            {/* <Footer/> */}
         </div>
     );
 };

@@ -26,7 +26,7 @@ const UpdateForm = () => {
     const updateProduct={
       name,brand,img,type,price,rating,description,email:user.email,user:user.displayName
     }
-    fetch(`https://tech-hub-server-6xjjg48w3-sajedaakter16.vercel.app/addproduct/${product._id}`,{
+    fetch(`https://tech-hub-server-rust.vercel.app/addproduct/${product._id}`,{
       method:"PUT",
       headers:{
         'content-type':"application/json"

@@ -8,7 +8,7 @@ const Login = () => {
   const { userSignin, googleSignin, githubSignin } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
-  console.log()
+ console.log(displayError)
 
   // signin by google
   const handleGoogle = () => {
@@ -20,7 +20,7 @@ const Login = () => {
     githubSignin();
   };
 
-  const handleSignup = (e) => {
+  const handleSignin = (e) => {
     e.preventDefault();
 
     setDisplayError("");
@@ -34,7 +34,13 @@ const Login = () => {
         navigate(location?.state ? location.state : "/");
       })
       .catch((error) => {
-        setDisplayError(error);
+        const errorCode = error.message;
+    
+        if (errorCode === 'auth/invalid-credential') {
+         return setDisplayError('Invalid email or password');
+        } else {
+         return setDisplayError(error.message); // Handle other authentication errors
+        }
       });
 
     // reset form
@@ -53,7 +59,7 @@ const Login = () => {
         <h1 className="bg-indigo-900 text-white text-center py-6 text-2xl font-bold  underline-4  rounded-t-2xl ">
           Login
         </h1>
-        <form className="card-body " onSubmit={handleSignup}>
+        <form className="card-body " onSubmit={handleSignin}>
           <div className="form-control">
             <input
               type="email"
@@ -71,6 +77,7 @@ const Login = () => {
               className="py-4 outline-none border-b-2 border-indigo-800"
               required
             />
+            {displayError}
           </div>
           <div className="form-control mt-6">
             <button className="btn btn-primary">Login</button>
